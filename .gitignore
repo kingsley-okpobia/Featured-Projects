@@ -1,0 +1,28 @@
+# Python bytecode (compiled files)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (avoids uploading thousands of system-specific files)
+venv/
+.venv/
+env/
+
+# Local Machine Learning Model Weights (Crucial: blocks gigabytes of data)
+model/
+model_onnx/
+*.bin
+*.pt
+*.onnx
+
+# Environment configuration & sensitive data
+.env
+.env.development
+.env.local
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Windows batch launcher containing sensitive tokens
+run_app.bat
